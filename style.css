@@ -157,12 +157,14 @@ a {
 /* // Section__1 /// */
 
 /* // Section__2 /// */
-.sec_2_bacgraund {
+.section__2{    
     background-image: url(img/sec_2_img.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1440px ;
     width: 100%;
+}
+.sec_2_bacgraund {
     height: 755px;
     display: flex;
     justify-content: center;
@@ -174,8 +176,7 @@ a {
     border-radius: 10px;
     width: 500px;
     height: 430px;
-    display: flex;
-    align-items: center;
+    padding: 40px;
 }
 
 .sec_2_box_title {
